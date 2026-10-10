@@ -1,0 +1,29 @@
+{
+  "version": "selection-v1",
+  "lookback_days": 60,
+  "evaluation_days": 14,
+  "min_start_equity": 1000.0,
+  "max_training_net_flow_ratio": 0.1,
+  "snapshot_hours_min": 18.0,
+  "snapshot_hours_max": 30.0,
+  "reconciliation_tolerance": 0.01,
+  "max_drawdown": 0.2,
+  "max_single_day_loss": 0.1,
+  "minimum_profitable_blocks": 2,
+  "minimum_nonflat_days": 20,
+  "nonflat_return_threshold": 0.0001,
+  "maximum_top3_positive_log_return_share": 0.6,
+  "positive_return_after_removing_top3_days": true,
+  "daily_downside_floor": 0.005,
+  "maximum_pairwise_positive_correlation": 0.7,
+  "maximum_addresses": 10,
+  "capital_weight_per_address": 0.1,
+  "primary_cashflow_timing_weight": 0.5,
+  "notes": [
+    "Frozen before forward-period strategy evaluation. Preliminary train-only feasibility checks used four cutoffs and the entire dataset was already structurally audited; this is not an untouched blind holdout.",
+    "Net deposit and PnL semantics remain provisional. The experiment evaluates account-return proxies, not executable copied trades.",
+    "No future-completeness requirement may change the membership chosen at a cutoff.",
+    "Unknown future outcomes remain unknown. Do not impute zero returns, drop selected addresses or stitch partially observed NAV segments.",
+    "Capital weights isolate the selection experiment; they are not a final live allocation. Fewer selected addresses leave the corresponding model budget in cash."
+  ]
+}

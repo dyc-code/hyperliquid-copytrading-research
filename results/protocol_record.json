@@ -1,0 +1,14 @@
+{
+  "configuration_sha256": "be6a6144434d0338d1a06522583ecc4f7990d7f00ca1a09956357045568ccccc",
+  "source_sha256": "cb2a16931470cecaeb16a35af150788e53ea2762963edad98b44902ff8d00705",
+  "protocol_recorded_at_utc": "2026-09-30T00:58:15.931681+00:00",
+  "prior_exploration": "Previous source-wide structural audit plus train-only feasibility summaries at 2025-09-08, 2025-10-20, 2025-12-15, 2026-01-04; no forward strategy outcomes computed before this configuration.",
+  "sensitivity_variants_predeclared": [
+    "drawdown 15/25%",
+    "worst day 8/12%",
+    "correlation .5/.85",
+    "flow 25%",
+    "max addresses 5",
+    "lookback 45/90 days"
+  ]
+}

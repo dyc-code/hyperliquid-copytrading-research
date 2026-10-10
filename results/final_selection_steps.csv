@@ -1,0 +1,11 @@
+﻿stage,users
+当前60日窗口出现过记录,2000
+60个区间全部通过资料门槛,169
+positive_total,87
+drawdown_limit,68
+daily_loss_limit,59
+profitable_blocks_limit,39
+nonflat_days_limit,33
+profit_concentration_limit,29
+remove_best3_limit,15
+排序并施加相关性与名额限制,10

@@ -1,0 +1,5 @@
+﻿baseline,scheduled_folds,jointly_observable_folds,mean_return_difference,robust_return_wins,mean_drawdown_difference
+profit_top10,8,3,-0.0396862591126859,0,0.004620432440319548
+profit_matched_budget,8,3,-0.0396862591126859,0,0.004620432440319548
+eligible_equal_matched_budget,8,1,-0.004082806799498462,0,-0.031210032054560077
+robust_without_correlation,8,4,0.005187018070665406,2,-0.004899759460880726
